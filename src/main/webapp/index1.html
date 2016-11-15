@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <h2>应用form进行传值</h2>
+    <form id="form1" name="form1" action="login/add">
+
+        用户名：<input type="text" name="username"><br/>
+        密码：<input type="text" name="password"><br/>
+        <input type="submit">
+    </form>
+
+    <br/>
+    <a href="login/del?username=weikun">点击1</a>
+
+
+     <a href="login/login?role=admin&role=manager">点击2</a>
+
+
+     <a href="login/login1?role=cat&role=dog">点击3</a>
+
+     <a href="cookie/ok/weikun">点击4</a>
+
+     <form  name="form1" action="say/ok">
+         <input type="text" name="username">
+         <input type="text" name="password">
+         <input type="submit">
+     </form>
+
+     <form  name="form1" action="say/ok1">
+         <input type="text" name="username">
+         <input type="text" name="password">
+         <input type="submit">
+     </form>
+
+     <a href="say/ok2">点击5</a>
+     <a href="say/ok3">点击6</a>
+     <a href="say/ok4">点击7</a>
+</body>
+</html>
